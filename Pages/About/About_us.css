@@ -1,0 +1,86 @@
+/* NavigationBar Start */
+.nav-item {
+  font-weight: 500;
+  padding: 5px;
+}
+
+.navbar-nav li a{
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+.buttonbtn {
+  background: linear-gradient(to right, #6675f7, #57007b);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 100px;
+  margin-right: 20px;
+}
+/* Navbar section end */
+
+/* Home section start */
+.containHomeSectionData {
+  background-color: #ffffff;
+  border-bottom-style: inset;
+}
+.heading-1 .bold-1 {
+  background: linear-gradient(to right, #de4396, #0d1c9f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.heading-2 .bold-2 {
+  background: linear-gradient(to right, #f7666f, #406aff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* NavigationBar End */
+
+/* Footer &
+ Copyright Start */
+
+.googlePara{
+  width: 400px;
+}
+
+.CopyrightSection {
+  border-top-style: inset;
+}
+
+/* Footer &
+ Copyright End */
+
+/* Responsive About_us page */
+@media (max-width: 991px) {
+  .buttonbtn {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 620px){
+    .aboutImagePart img{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 500px){
+    .CopyrightSection p{
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width: 1199px){
+  .googlePara{
+    width: 30vw;
+  }
+}
+
+@media(max-width: 760px){
+  .googlePara{
+    width: 80vw;
+  }
+}

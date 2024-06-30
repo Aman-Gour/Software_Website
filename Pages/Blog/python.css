@@ -1,0 +1,89 @@
+.containBlogContent{
+    margin: 10px auto;
+}
+.blogContent .nameAndtime{
+    height: 100px;
+}
+
+.nameAndtime  a{
+    color:  black;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 20px 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.blogContent .blogparam-1{
+    width: 90vw;
+}
+
+/* NavigationBar  */
+.nav-item {
+    font-weight: 500;
+    padding: 5px;
+}
+
+.navbar-nav li a{
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+
+.buttonbtn {
+    background: linear-gradient(to right, #6675f7, #57007b);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+}
+/* Navbar section end */
+
+/* Form Start */
+.hireFormSection{
+    background-color: #F7F7F7;
+}
+/* Form End */
+
+/* Footer &
+ Copyright Start */
+.googlePara{
+    width: 400px;
+}
+
+.CopyrightSection {
+    border-top-style: inset;
+}
+/* Footer & 
+Copyright End */
+
+
+
+/* Responsive Start */
+@media(max-width: 1199px){
+    .googlePara{
+        width: 30vw;
+    }
+}
+
+@media(max-width: 760px){
+    .googlePara{
+        width: 80vw;
+    }
+}
+
+
+@media(max-width: 500px){
+    .CopyrightSection p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 767px){
+    .rightSideHire img{
+        margin-top: 20px;
+    }
+}
+/* Responsive End */

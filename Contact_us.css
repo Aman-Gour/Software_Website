@@ -1,0 +1,54 @@
+/* NavigationBar  */
+.nav-item {
+  font-weight: 500;
+  padding: 5px;
+}
+
+.buttonbtn {
+  background: linear-gradient(to right, #6675f7, #57007b);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 100px;
+  margin-right: 20px;
+}
+/* Navbar section end */
+
+/* contactUsSection Start */
+.contactUsSection{
+  background-color: #F7F7F7;
+}
+/* contactUsSection End */
+
+/* Form Start */
+.hireFormSection{
+    background-color: #F7F7F7;
+}
+/* Form End */
+
+/* Footer &
+ Copyright Start */
+
+.CopyrightSection {
+  border-top-style: inset;
+}
+
+/* Footer & 
+Copyright End */
+
+
+
+/* Responsive Start */
+@media(max-width: 500px){
+    .CopyrightSection p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 767px){
+    .rightSideHire img{
+        margin-top: 20px;
+    }
+}
+/* Responsive End */

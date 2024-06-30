@@ -1,0 +1,279 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* Navbar section start */
+.nav-item {
+  font-weight: 500;
+  padding: 5px;
+}
+
+.navbar-nav li a{
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+.buttonbtn {
+  background: linear-gradient(to right, #6675f7, #57007b);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 100px;
+  margin-right: 20px;
+}
+/* Navbar section end */
+
+/* Home section start */
+.containHomeSectionData {
+  background-color: #ffffff;
+  border-bottom-style: inset;
+}
+.heading-1 .bold-1 {
+  background: linear-gradient(to right, #de4396, #0d1c9f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.heading-2 .bold-2 {
+  background: linear-gradient(to right, #f7666f, #406aff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* Home section end */
+
+/* Services Section start */
+.heading {
+  margin-top: 50px;
+}
+
+.row .btn {
+  background-color: #3d63ea;
+  color: white;
+}
+
+.containServicesData {
+  background-color: #f9f9ff;
+}
+
+.card .imgCircle {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.card:hover {
+  border: 1px solid red;
+  cursor: pointer;
+  margin: 20px 20px;
+}
+
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.circles .circle {
+  border-radius: 50px;
+  border: 1px solid #57007b;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.circles .circle:nth-child(3) {
+  background-color: #57007b;
+}
+
+.containServicesData {
+  border-bottom-style: inset;
+}
+/* Service Section End */
+
+/* Develope Software Start */
+.devSoftContainer {
+  background-color: #ffffff;
+}
+
+.devSoftContainer {
+  border-bottom-style: inset;
+}
+/* Develope Software End */
+
+/* flex side img Start */
+.containImgSliderData {
+  border-bottom-style: inset;
+  background-color: hsl(240, 23%, 97%);
+}
+
+.imgSection img {
+  margin: 20px;
+}
+
+.cutomersData {
+  border-bottom-style: inset;
+}
+/* flex side img End */
+
+/* cutomers working Start */
+.cardY {
+  opacity: 0.1;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.cardY:hover {
+  opacity: 1;
+}
+
+.cutomersData {
+  margin-bottom: 100px;
+  border-bottom-style: inset;
+}
+/* cutomers working End */
+
+/* Case stuides Start */
+.imgSideContent .BackGroundColorChange-1{
+  background-color: #F1F2FF;
+}
+
+.imgSideContent .BackGroundColorChange-2{
+  background-color: #F0FFF7;
+}
+
+.imgSideContent .BackGroundColorChange-3{
+  background-color: #FFF4F4;
+}
+
+.imgSideContent .innerSideContent{
+  display: flxe;
+  flex-wrap: wrap;
+}
+
+.caseStudiesSection .imgSideContent{
+  /* border-bottom-style: inset; */
+  padding-bottom: 50px;
+}
+/* Case stuides End */
+
+/* Great Software Start */
+.greatSoftwareSection {
+  background-color: #ffffff;
+}
+
+.greatInnerPartSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greatSoftwareSection {
+  margin-bottom: 50px;
+}
+/* Great Software End */
+
+/* Development approach Start */
+.devAppSection {
+  background-color: #f7f7fa;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+/* Development approach End */
+
+/* TechStack Start */
+.list ul {
+  list-style: none;
+}
+
+.list li {
+  margin: 30px;
+}
+
+.list li a {
+  color: black;
+}
+
+.TecStackSection {
+  margin-top: 50px;
+  border-bottom-style: inset;
+}
+/* TechStack End */
+
+/* Featured Resources Start */
+.horizonatalImgPart {
+  margin: 20px;
+}
+
+.horiImgPart {
+  width: 200px;
+  margin: 40px;
+}
+
+.horiImgPart .ReadMore {
+  color: #57007b;
+}
+
+.horiImgPart img {
+  height: 200px;
+}
+
+.FeaturedResourceSection {
+  margin-bottom: 20px;
+}
+/* Featured Resources End */
+
+/* Hire Start */
+.hireXSection {
+  background: linear-gradient(#f1f1f5, #e4ecf7);
+}
+
+.imgContentSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.upbtndown {
+  margin: 50px;
+}
+
+.imgContentSection ul {
+  list-style: none;
+}
+
+.imgContentSection .btnHire {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: linear-gradient(#ffc656, #f16063);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.imgContentSection .imgNo-1 {
+  margin-left: 30px;
+}
+
+.imgContentSection .imgNo-2 {
+  margin-left: 30px;
+}
+/* Hire End */
+
+/* Footer &
+Copyright Start */
+.googlePara{
+  width: 400px;
+}
+
+.CopyrightSection {
+  border-top-style: inset;
+}
+/* Footer & 
+Copyright End */

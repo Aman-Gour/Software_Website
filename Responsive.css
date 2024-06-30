@@ -1,0 +1,156 @@
+/* Navbar section start */
+@media (max-width: 991px) {
+  .buttonbtn {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+/* Navbar section end */
+
+/* Services section start */
+@media(max-width: 1703px){
+  .card{
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 695px){
+  .card{
+    margin-top: 20px;
+  }
+
+  .headingContent{
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 600px){
+  .card .imgCircle {
+    margin-left: 80px;
+  }
+}
+/* Services section end */
+
+/* Develope Software start */
+@media (max-width: 767px) {
+  .imgPartSection img {
+    margin: 10px 50px;
+    width: 80vw;
+  }
+}
+
+@media(max-width: 602px){
+  .subsectionImg{
+    margin-left: 40px;
+  }
+}
+
+@media(max-width: 482px){
+  .headingHOne{
+    font-size: 20px;
+  }
+}
+/* Develope Software end */
+
+/* cutomers working start */
+@media (max-width: 600px) {
+    .LeftandRightImg{
+      height: 10vh;
+    }
+
+  .cardsX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+/* cutomers working end */
+
+/* Great Software Start */
+@media(max-width: 1000px){
+  .rightContentPart .rightImg{
+    padding-left: 45px;
+  } 
+}
+/* Great Software End */
+
+/* development approach Start */
+@media(max-width: 450px){
+  .innercardColl img{
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 400px){
+  .card-title {
+    padding: 10px;
+  }
+
+  .card-text{
+    padding: 10px;
+  }
+}
+/* development approach End */
+
+/* Featured Resources Start */
+@media(max-width: 583px){
+    .parenthoriImgPart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .horiImgPart{
+      margin-right: 100px;
+    }
+}
+/* Featured Resources End */
+
+/* Hire Start */
+@media(max-width: 1200px){
+  .hireContentSection h1{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 1000px){
+  .hireContentSection h1{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 767px){
+  .hireXSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Hire End */
+
+/* Footer and 
+Copyright Start */
+@media(max-width: 1199px){
+    .googlePara{
+      width: 30vw;
+    }
+}
+
+@media(max-width: 760px){
+  .googlePara{
+    width: 80vw;
+  }
+}
+
+@media(max-width: 500px){
+    .CopyrightSection p{
+      font-size: 10px;
+    }
+}
+/* Footer and 
+Copyright End */
